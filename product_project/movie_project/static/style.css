@@ -1,0 +1,30 @@
+body{
+    background-color:lightblue;
+}
+form{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px inset #47b8e0;
+    padding: 20px;
+    margin: 100px;
+    margin-right: 20%;
+    margin-left: 38%;
+
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #black;
+    color: ##efcf3c;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.registerbtn{
+background-color:lightblue;
+text-align:center;
+padding:2px;
+margin-left:85px;
+margin-top:10px;
+}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div style="color:red;">
+        <button onclick="history.back()">Go Back</button>
+    </div>
+    <h2 style="color:green;">Add New Movies Here....</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label style="color:green;">Name Of Movie:</label>
+        <input type="text" name="name" placeholder="Enter your movie name"><br>
+        <label style="color:green;">Description:</label>
+        <input type="text" name="desc" placeholder="Enter the movie description"><br>
+        <label style="color:green;">Released Year:</label>
+        <input type="text" name="mf_year" placeholder="Enter movie released year"><br>
+        <label style="color:green;">Add Image:</label>
+        <input type="file" name="img"><br>
+        <button type="submit" class="registerbtn"><strong>Add Movie</strong></button><br>
+<!--        <div style="text-align:center;">-->
+<!--            <input type="submit">-->
+<!--        </div>-->
+
+    </form>
+
+{% endblock %}
